@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/pref_cat_audio_title">
+        <ListPreference android:entries="@array/pref_audioSource_names" android:title="@string/pref_audioSource_title" android:key="@string/pref_audioSource_key" android:summary="%s" android:defaultValue="@string/pref_audioSource_default" android:entryValues="@array/pref_audioSource_values" />
+        <ListPreference android:title="@string/pref_sampleRate_title" android:key="@string/pref_sampleRate_key" android:summary="%s" android:defaultValue="@string/pref_sampleRate_default" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_cat_processing_title">
+        <ListPreference android:title="@string/pref_fftSizeLog_title" android:key="@string/pref_fftSizeLog_key" android:summary="%s" android:defaultValue="@string/pref_fftSizeLog_default" android:entryValues="@array/pref_fftSizeLog_values" />
+        <ListPreference android:title="@string/pref_decimations_title" android:key="@string/pref_decimations_key" android:summary="%s" android:defaultValue="@string/pref_decimations_default" />
+        <ListPreference android:entries="@array/pref_windowFunction_names" android:title="@string/pref_windowFunction_title" android:key="@string/pref_windowFunction_key" android:summary="%s" android:defaultValue="@string/pref_windowFunction_default" android:entryValues="@array/pref_windowFunction_values" />
+        <ListPreference android:entries="@array/pref_transformInterval_names" android:title="@string/pref_transformInterval_title" android:key="@string/pref_transformInterval_key" android:summary="%s" android:defaultValue="@string/pref_transformInterval_default" android:entryValues="@array/pref_transformInterval_values" />
+        <org.intoorbit.spectrum.preferences.SeekBarPreference android:title="@string/pref_smoothingFactor_title" android:key="@string/pref_smoothingFactor_key" android:summary="%.2f" android:defaultValue="@string/pref_smoothingFactor_default" app:denominator="20" app:numeratorMax="19" app:numeratorMin="0" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="denominator" format="integer" />
+    <attr name="gridMajorColor" format="color" />
+    <attr name="gridMinorColor" format="color" />
+    <attr name="markerColor" format="color" />
+    <attr name="markerLabelTextColor" format="color" />
+    <attr name="markerLabelTextSize" format="dimension" />
+    <attr name="markerStubTextColor" format="color" />
+    <attr name="markerStubTextSize" format="dimension" />
+    <attr name="numeratorMax" format="integer" />
+    <attr name="numeratorMin" format="integer" />
+    <attr name="peakMarkerColor" format="color" />
+    <attr name="peakMarkerLabelTextColor" format="color" />
+    <attr name="peakMarkerLabelTextSize" format="dimension" />
+    <attr name="peakMarkerStubTextColor" format="color" />
+    <attr name="peakMarkerStubTextSize" format="dimension" />
+    <attr name="peakSpectrumColor" format="color" />
+    <attr name="spectrumColor" format="color" />
+    <attr name="stubTextColor" format="color" />
+    <attr name="stubTextSize" format="dimension" />
+</resources>

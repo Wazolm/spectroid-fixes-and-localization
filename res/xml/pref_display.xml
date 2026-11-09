@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_cat_spectrum_title">
+        <ListPreference android:entries="@array/pref_frequencyAxisScale_names" android:title="@string/pref_frequencyAxisScale_title" android:key="@string/pref_frequencyAxisScale_key" android:summary="%s" android:defaultValue="@string/pref_frequencyAxisScale_default" android:entryValues="@array/pref_frequencyAxisScale_values" />
+        <ListPreference android:entries="@array/pref_waterfallSize_names" android:title="@string/pref_waterfallSize_title" android:key="@string/pref_waterfallSize_key" android:summary="%s" android:defaultValue="@string/pref_waterfallSize_default" android:entryValues="@array/pref_waterfallSize_values" />
+        <SwitchPreference android:title="@string/pref_maxHoldTrace_title" android:key="@string/pref_maxHoldTrace_key" android:defaultValue="@string/pref_maxHoldTrace_default" />
+        <ListPreference android:entries="@array/pref_peakMarkers_names" android:title="@string/pref_peakMarkers_title" android:key="@string/pref_peakMarkers_key" android:summary="%s" android:defaultValue="@string/pref_peakMarkers_default" android:entryValues="@array/pref_peakMarkers_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_cat_screen_title">
+        <CheckBoxPreference android:title="@string/pref_stayAwake_title" android:key="@string/pref_stayAwake_key" android:summary="@string/pref_stayAwake_summary" android:defaultValue="@string/pref_stayAwake_default" />
+    </PreferenceCategory>
+</PreferenceScreen>

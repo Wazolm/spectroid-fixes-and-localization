@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue_ncsS1565B">#ff0089bf</color>
+    <color name="cyan_ncsS2060B50G">#ff009799</color>
+    <color name="gray3">#ff333333</color>
+    <color name="gray6">#ff666666</color>
+    <color name="gray9">#ff999999</color>
+    <color name="green_ncsS1565G">#ff00a46a</color>
+    <color name="grow_ncsS1075G50Y">#ff9db900</color>
+    <color name="ic_launcher_background">#ff333333</color>
+    <color name="orange_ncsS0585Y50R">#ffff7400</color>
+    <color name="purple_ncsS2050R50B">#ffa16daf</color>
+    <color name="red_ncsS1080R">#ffc40a34</color>
+    <color name="yellow_ncsS0580Y">#ffffd200</color>
+</resources>

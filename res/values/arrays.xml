@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_audioSource_names">
+        <item>@string/pref_audioSource_default_name</item>
+        <item>@string/pref_audioSource_microphone_name</item>
+        <item>@string/pref_audioSource_voiceUplink_name</item>
+        <item>@string/pref_audioSource_voiceDownlink_name</item>
+        <item>@string/pref_audioSource_voiceCall_name</item>
+        <item>@string/pref_audioSource_camcorder_name</item>
+        <item>@string/pref_audioSource_voiceRecognition_name</item>
+        <item>@string/pref_audioSource_voiceCommunication_name</item>
+        <item>@string/pref_audioSource_remoteSubmix_name</item>
+        <item>@string/pref_audioSource_unprocessed_name</item>
+    </string-array>
+    <string-array name="pref_audioSource_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="pref_fftSizeLog_values">
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+    </string-array>
+    <string-array name="pref_frequencyAxisScale_names">
+        <item>@string/pref_frequencyAxisScale_linear_name</item>
+        <item>@string/pref_frequencyAxisScale_logarithmic_name</item>
+    </string-array>
+    <string-array name="pref_frequencyAxisScale_values">
+        <item>@string/pref_frequencyAxisScale_linear_value</item>
+        <item>@string/pref_frequencyAxisScale_logarithmic_value</item>
+    </string-array>
+    <string-array name="pref_peakMarkers_names">
+        <item>@string/pref_peakMarkers_0_name</item>
+        <item>@string/pref_peakMarkers_1_name</item>
+        <item>@string/pref_peakMarkers_2_name</item>
+        <item>@string/pref_peakMarkers_3_name</item>
+        <item>@string/pref_peakMarkers_4_name</item>
+        <item>@string/pref_peakMarkers_5_name</item>
+    </string-array>
+    <string-array name="pref_peakMarkers_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="pref_testSignal_names">
+        <item>@string/pref_testSignal_off_name</item>
+        <item>@string/pref_testSignal_whiteNoise_name</item>
+        <item>@string/pref_testSignal_tone_name</item>
+        <item>@string/pref_testSignal_logarithmicSweep_name</item>
+        <item>@string/pref_testSignal_linearSweep_name</item>
+    </string-array>
+    <string-array name="pref_testSignal_values">
+        <item>off</item>
+        <item>whiteNoise</item>
+        <item>tone-1k</item>
+        <item>logToneSweep-20</item>
+        <item>linearToneSweep-20</item>
+    </string-array>
+    <string-array name="pref_transformInterval_names">
+        <item>@string/pref_transformInterval_10_name</item>
+        <item>@string/pref_transformInterval_15_name</item>
+        <item>@string/pref_transformInterval_20_name</item>
+        <item>@string/pref_transformInterval_25_name</item>
+        <item>@string/pref_transformInterval_30_name</item>
+        <item>@string/pref_transformInterval_50_name</item>
+        <item>@string/pref_transformInterval_100_name</item>
+    </string-array>
+    <string-array name="pref_transformInterval_values">
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>50</item>
+        <item>60</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="pref_waterfallSize_names">
+        <item>@string/pref_waterfallSize_00_name</item>
+        <item>@string/pref_waterfallSize_33_name</item>
+        <item>@string/pref_waterfallSize_50_name</item>
+        <item>@string/pref_waterfallSize_66_name</item>
+    </string-array>
+    <string-array name="pref_waterfallSize_values">
+        <item>0</item>
+        <item>0.33</item>
+        <item>0.5</item>
+        <item>0.66</item>
+    </string-array>
+    <string-array name="pref_windowFunction_names">
+        <item>@string/pref_windowFunction_cosine_name</item>
+        <item>@string/pref_windowFunction_vonHann_name</item>
+        <item>@string/pref_windowFunction_hamming_name</item>
+        <item>@string/pref_windowFunction_blackman_name</item>
+        <item>@string/pref_windowFunction_blackmanHarris_name</item>
+        <item>@string/pref_windowFunction_flatTop_name</item>
+        <item>@string/pref_windowFunction_rectangular_name</item>
+        <item>@string/pref_windowFunction_triangular_name</item>
+        <item>@string/pref_windowFunction_welch_name</item>
+    </string-array>
+    <string-array name="pref_windowFunction_values">
+        <item>cosine</item>
+        <item>vonHann</item>
+        <item>hamming</item>
+        <item>blackman</item>
+        <item>blackmanHarris</item>
+        <item>flatTop</item>
+        <item>rectangular</item>
+        <item>triangular</item>
+        <item>welch</item>
+    </string-array>
+    <string-array name="pref_language_names"><item>@string/pref_language_english</item><item>@string/pref_language_chinese</item></string-array>
+    <string-array name="pref_language_values"><item>en</item><item>zh-CN</item></string-array>
+</resources>

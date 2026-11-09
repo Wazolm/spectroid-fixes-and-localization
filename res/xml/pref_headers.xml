@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <header android:title="@string/pref_head_audio_title" android:fragment="org.intoorbit.spectrum.SettingsActivity$AudioPreferenceFragment" />
+    <header android:title="@string/pref_head_display_title" android:fragment="org.intoorbit.spectrum.SettingsActivity$DisplayPreferenceFragment" />
+    <header android:title="@string/pref_head_misc_title" android:fragment="org.intoorbit.spectrum.SettingsActivity$MiscellaneousPreferenceFragment" />
+    <header android:title="@string/pref_head_about_title" android:fragment="org.intoorbit.spectrum.SettingsActivity$AboutPreferenceFragment" />
+    <header android:title="@string/pref_head_language_title" android:fragment="org.intoorbit.spectrum.SettingsActivity$LanguagePreferenceFragment" />
+</preference-headers>

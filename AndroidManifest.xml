@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="33" android:compileSdkVersionCodename="13" package="org.intoorbit.spectrum" platformBuildVersionCode="33" platformBuildVersionName="13">
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/application_label" android:largeHeap="true">
+        <activity android:exported="true" android:name="org.intoorbit.spectrum.SpectrumActivity" android:resizeableActivity="true" android:theme="@style/Theme.Spectroid.Spectrum">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/activity_settings_label" android:name="org.intoorbit.spectrum.SettingsActivity" android:parentActivityName="org.intoorbit.spectrum.SpectrumActivity" android:resizeableActivity="true" android:theme="@style/Theme.Spectroid"/>
+    </application>
+</manifest>
